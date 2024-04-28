@@ -162,3 +162,20 @@ public class Server
 	}
 }
 
+
+
+
+
+console1:
+javac Search.java
+javacSearchQuery.java
+rmi SearchQuery
+rmiregistry on console
+
+console2:
+javac Server.java
+java Server
+
+console3:
+javac Client.java
+java Client
